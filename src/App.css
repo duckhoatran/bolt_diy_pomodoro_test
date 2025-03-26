@@ -1,0 +1,59 @@
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.timer {
+  font-size: 4rem;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.controls button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.settings {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.settings input {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.soundscapes {
+  margin-top: 30px;
+}
+
+.sound-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.sound {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sound:hover {
+  background: #ddd;
+}
+
+.sound.active {
+  background: #4CAF50;
+  color: white;
+}
