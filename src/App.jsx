@@ -6,7 +6,7 @@ const soundscapes = [
   { id: 1, name: 'Rain', url: 'https://assets.mixkit.co/sfx/preview/mixkit-rain-loop-1243.mp3' },
   { id: 2, name: 'Forest', url: 'https://assets.mixkit.co/sfx/preview/mixkit-forest-ambience-352.mp3' },
   { id: 3, name: 'Cafe', url: 'https://assets.mixkit.co/sfx/preview/mixkit-busy-cafe-ambience-445.mp3' },
-  { id: 4, name: 'Waves', url: 'https://assets.mixkit.co/sfx/preview/mixkit-waves-on-the-beach-2730.mp3' }
+  { id: 4, name: 'Waves', url: 'ocean-waves-250310.mp3' }
 ]
 
 export default function App() {
