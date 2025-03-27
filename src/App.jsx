@@ -4,10 +4,10 @@ import { Howl } from 'howler'
 import './App.css'
 
 const soundscapes = [
-  { id: 1, name: 'Rain', url: '/sounds/rain.mp3' },
-  { id: 2, name: 'Forest', url: '/sounds/forest.mp3' },
-  { id: 3, name: 'Cafe', url: '/sounds/cafe.mp3' },
-  { id: 4, name: 'Waves', url: '/sounds/ocean-waves-250310.mp3' }
+  { id: 1, name: 'Rain', src: '/sounds/rain.mp3' },
+  { id: 2, name: 'Forest', src: '/sounds/forest.mp3' },
+  { id: 3, name: 'Cafe', src: '/sounds/cafe.mp3' },
+  { id: 4, name: 'Waves', src: '/sounds/ocean-waves-250310.mp3' }
 ]
 
 export default function App() {
