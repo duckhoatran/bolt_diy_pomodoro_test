@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useRef } from 'react'
 import { Howl } from 'howler'
 import './App.css'
@@ -24,10 +25,10 @@ export default function App() {
 
   useEffect(() => {
     let interval = null
-    if (isActive && timeLeft > 0) 
+    if (isActive && timeLeft > 0) {
       interval = setInterval(() => {
         setTimeLeft(timeLeft - 1)
-      }, 1000)
+      }, 1000);
     } else if (isActive && timeLeft === 0) {
       setIsActive(false)
       setIsWorkTime(!isWorkTime)
