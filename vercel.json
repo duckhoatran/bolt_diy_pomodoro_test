@@ -6,7 +6,7 @@
       "use": "@vercel/static",
       "config": {
         "root": ".",
-        "buildCommand": "npm run build",
+        "buildCommand": "npm install && npm run build",
         "distDir": "dist"
       }
     }
