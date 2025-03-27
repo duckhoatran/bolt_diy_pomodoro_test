@@ -24,7 +24,7 @@ export default function App() {
 
   useEffect(() => {
     let interval = null
-    if (isActive && timeLeft > 0) {
+    if (isActive && timeLeft > 0) 
       interval = setInterval(() => {
         setTimeLeft(timeLeft - 1)
       }, 1000)
@@ -55,7 +55,7 @@ export default function App() {
       soundsRef.current[sound.id] = new Howl({
         src: [sound.url],
         loop: true,
-        volume: 0.5
+        volume: 1
       })
       soundsRef.current[sound.id].play()
     }
