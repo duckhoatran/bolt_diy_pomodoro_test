@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "src/**",
-      "use": "@vercel/vite",
+      "use": "@vercel/static",
       "config": {
         "root": ".",
         "buildCommand": "npm run build",
